@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | Minimal Classic Game</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/build.loader.js"></script>
+    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <script src="Build/gdd2_game.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/build.data",
-        frameworkUrl: "Build/build.framework.js",
-        codeUrl: "Build/build.wasm",
+        dataUrl: "Build/gdd2_game.data",
+        frameworkUrl: "Build/gdd2_game.framework.js",
+        codeUrl: "Build/gdd2_game.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "GameLabGraz",
         productName: "Minimal Classic Game",
